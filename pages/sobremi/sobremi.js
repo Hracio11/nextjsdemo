@@ -1,25 +1,23 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
-export default function Home() {
+export default function sobremi() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Horacio Blog</title>
+        <title>Sobre mi</title>
         <link rel="icon" href="/h.ico" />
       </Head>
 
       <main>
         <div>
           <h1 className={styles.title}>
-            Hola Soy<a href="https://nextjs.org">Horacio</a>
+            Sobre <a href="https://nextjs.org">Mi</a>
           </h1>
 
           <p className={styles.description}>
-            Soy un programador en proceso
+            Estoy en practicas de AYPHU
           </p>
-
-          <img src="/lentes.jpg" alt="" width="200px"></img>
         </div>
       </main>
 
