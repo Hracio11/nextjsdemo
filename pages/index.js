@@ -12,7 +12,7 @@ export default function Home() {
       <main>
         <div>
           <h1 className={styles.title}>
-            Hola Soy<a href="https://nextjs.org">Horacio</a>
+            Hola Soy<a href="/sobremi">Horacio</a>
           </h1>
 
           <p className={styles.description}>
@@ -20,11 +20,9 @@ export default function Home() {
           </p>
 
           <img src="/lentes.jpg" alt="" width="200px"></img>
+
         </div>
       </main>
-
-      
-
     </div>
   );
 }

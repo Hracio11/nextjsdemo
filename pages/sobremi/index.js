@@ -1,9 +1,7 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-
-export default function sobremi() {
+export default function Sobremi() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Sobre mi</title>
         <link rel="icon" href="/h.ico" />
@@ -11,11 +9,11 @@ export default function sobremi() {
 
       <main>
         <div>
-          <h1 className={styles.title}>
-            Sobre <a href="https://nextjs.org">Mi</a>
+          <h1>
+            Sobre Mi
           </h1>
 
-          <p className={styles.description}>
+          <p>
             Estoy en practicas de AYPHU
           </p>
         </div>
