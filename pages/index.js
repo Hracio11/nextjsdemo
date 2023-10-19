@@ -21,6 +21,8 @@ export default function Home() {
 
           <img src="/lentes.jpg" alt="" width="200px"></img>
 
+          <h3>Hola mundo</h3>
+
         </div>
       </main>
     </div>
