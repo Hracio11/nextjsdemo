@@ -12,7 +12,7 @@ export default function Home() {
       <main>
         <div>
           <h1 className={styles.title}>
-            Hola Soy<a href="/sobremi">Horacio</a>
+            Hola Soy<a href="sobremi">Horacio</a>
           </h1>
 
           <p className={styles.description}>
