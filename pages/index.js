@@ -11,18 +11,21 @@ export default function Home() {
 
       <main>
         <div>
+          <div className={styles.caja}>
+            <img className={styles.perfil} src="/descarga.jpeg" alt=""></img>
+          </div>
+          
           <h1 className={styles.title}>
-            Hola Soy<a href="sobremi">Horacio</a>
+            Horacio Rojas Erazo
           </h1>
 
           <p className={styles.description}>
-            Soy un programador en proceso
+            Un programador en proceso
           </p>
 
-          <img src="/lentes.jpg" alt="" width="200px"></img>
-
-          <h3>Hola mundo</h3>
-
+          <p className={styles.text}>
+            Mis trabajos revisalos en <a href='https://github.com/Hracio11'>Github</a>
+          </p>
         </div>
       </main>
     </div>
